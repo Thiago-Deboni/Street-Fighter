@@ -1,0 +1,106 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    max-width: 1480px;
+    margin: 0 auto;
+    background-image: url(https://rare-gallery.com/resol/2560x1440/350156-4k-wallpaper.jpg);
+    color: #fd0000;
+}
+
+body.modo-escuro{
+    background-image: url(https://wallpapercave.com/wp/qGU8EnL.jpg);
+    color: #fcff35;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+header .logo, 
+header .imagem-botao{
+    width: 45px;
+    transition: 0.2s ease-in-out;
+}
+
+header #botao-alterar-tema{
+    background: none;
+    border: none;
+}
+
+header .logo:hover,
+header .imagem-botao:hover,
+main .cartao-streetfighter:hover{
+    transform: scale(1.05);
+    background-color: rgb(112, 250, 146);
+    cursor: pointer;
+}
+
+main{
+    padding: 20px;
+}
+
+main .listagem-streetfighter{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: center;
+}
+
+main .cartao-streetfighter{
+    width: 195px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    border-radius: 15px;
+    border: 1px solid #000000;
+    transition: 0.2s ease-in-out;
+}
+
+main .cartao-streetfighter .informacoes{
+    background-color: rgb(141, 204, 255);
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #000000;
+    border-radius: 10px;
+}
+
+main .cartao-streetfighter .informacoes span{
+    padding: 5px;
+    text-transform: uppercase;
+    font-size: 17px;
+}
+
+main .cartao-streetfighter .gif{
+    width: 90px;
+    height: 90px;
+}
+
+main .cartao-streetfighter .tipos{
+    display: flex;
+    gap: 15px;
+}
+
+main .cartao-streetfighter .tipo{
+    padding: 8px;
+    border-radius: 10px;
+}
+
+
+
+.bandeira{
+    width: 30px;
+    
+}
+
+
+main .descricao{
+    max-height: 80px;
+    overflow-y: scroll;
+    font-size: 14px;
+    padding-right: 10px; 
+}
+
+
